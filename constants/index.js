@@ -1,20 +1,9 @@
 import {
-  
-  
   discordBlack,
   facebook,
-
   instagram,
-  
- 
-  roadmap1,
-  roadmap2,
-  roadmap3,
-  roadmap4,
-  
   telegram,
   twitter,
- 
 } from "../public/assets";
 
 export const navigation = [
@@ -65,7 +54,12 @@ export const notificationImages = [
   "./assets/notification/image-2.png",
 ];
 
-export const companyLogos = [ "./assets/yourlogo.svg", "./assets/yourlogo.svg",  "./assets/yourlogo.svg", "./assets/yourlogo.svg"];
+export const companyLogos = [
+  "./assets/yourlogo.svg",
+  "./assets/yourlogo.svg",
+  "./assets/yourlogo.svg",
+  "./assets/yourlogo.svg",
+];
 
 export const brainwaveServices = [
   "Photo generating",
@@ -74,11 +68,11 @@ export const brainwaveServices = [
 ];
 
 export const brainwaveServicesIcons = [
-    "./assets/recording-03.svg" ,
-    "./assets/recording-01.svg" ,
-    "./assets/disc-02.svg" ,
-    "./assets/chrome-cast.svg" ,
-    "./assets/sliders-04.svg" ,
+  "./assets/recording-03.svg",
+  "./assets/recording-01.svg",
+  "./assets/disc-02.svg",
+  "./assets/chrome-cast.svg",
+  "./assets/sliders-04.svg",
 ];
 
 export const roadmap = [
@@ -88,7 +82,7 @@ export const roadmap = [
     text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
     date: "May 2023",
     status: "done",
-    imageUrl: roadmap1,
+    imageUrl: "./assets/roadmap/image-1.png",
     colorful: true,
   },
   {
@@ -97,7 +91,7 @@ export const roadmap = [
     text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
     date: "May 2023",
     status: "progress",
-    imageUrl: roadmap2,
+    imageUrl: "./assets/roadmap/image-2.png",
   },
   {
     id: "2",
@@ -105,7 +99,7 @@ export const roadmap = [
     text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
     date: "May 2023",
     status: "done",
-    imageUrl: roadmap3,
+    imageUrl: "./assets/roadmap/image-3.png",
   },
   {
     id: "3",
@@ -113,7 +107,7 @@ export const roadmap = [
     text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
     date: "May 2023",
     status: "progress",
-    imageUrl: roadmap4,
+    imageUrl: "./assets/roadmap/image-4.png",
   },
 ];
 
@@ -154,42 +148,42 @@ export const collabApps = [
   {
     id: "2",
     title: "Discord",
-    icon: "./assets/collaboration/discord.png" ,
+    icon: "./assets/collaboration/discord.png",
     width: 36,
     height: 28,
   },
   {
     id: "3",
     title: "Slack",
-    icon: "./assets/collaboration/slack.png" ,
+    icon: "./assets/collaboration/slack.png",
     width: 34,
     height: 35,
   },
   {
     id: "4",
     title: "Photoshop",
-    icon: "./assets/collaboration/photoshop.png" ,
+    icon: "./assets/collaboration/photoshop.png",
     width: 34,
     height: 34,
   },
   {
     id: "5",
     title: "Protopie",
-    icon: "./assets/collaboration/protopie.png" ,
+    icon: "./assets/collaboration/protopie.png",
     width: 34,
     height: 34,
   },
   {
     id: "6",
     title: "Framer",
-    icon: "./assets/collaboration/framer.png" ,
+    icon: "./assets/collaboration/framer.png",
     width: 26,
     height: 34,
   },
   {
     id: "7",
     title: "Raindrop",
-    icon: "./assets/collaboration/raindrop.png" ,
+    icon: "./assets/collaboration/raindrop.png",
     width: 38,
     height: 32,
   },
@@ -288,31 +282,31 @@ export const socials = [
   {
     id: "0",
     title: "Discord",
-    iconUrl: discordBlack,
+    iconUrl: "./assets/socials/discord.svg",
     url: "#",
   },
   {
     id: "1",
     title: "Twitter",
-    iconUrl: twitter,
+    iconUrl: "./assets/socials/twitter.svg",
     url: "#",
   },
   {
     id: "2",
     title: "Instagram",
-    iconUrl: instagram,
+    iconUrl:"./assets/socials/instagram.svg" ,
     url: "#",
   },
   {
     id: "3",
     title: "Telegram",
-    iconUrl: telegram,
+    iconUrl: "./assets/socials/telegram.svg" ,
     url: "#",
   },
   {
     id: "4",
     title: "Facebook",
-    iconUrl: facebook,
+    iconUrl:"./assets/socials/facebook.svg" ,
     url: "#",
   },
 ];
